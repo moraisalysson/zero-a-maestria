@@ -1,5 +1,6 @@
 import React from "react";
 
+<<<<<<< HEAD
 const UserDetails = ({pessoas}) => {
     return (
         <>
@@ -14,6 +15,14 @@ const UserDetails = ({pessoas}) => {
             )}
         </>
     );
+=======
+const UserDetails = (props) => {
+    console.log(props);
+    {props.map( (pessoa) => {// (pessoa.idade >= 18) && 
+            console.log(pessoa);
+            <p>{pessoa.nome}, {pessoa.idade}, {pessoa.profissao}</p>
+    }) }
+>>>>>>> ad7e273 (update)
 }
 
 export default UserDetails;

@@ -1,5 +1,6 @@
 import './App.css';
 import UserDetails from './secao3/UserDetails';
+<<<<<<< HEAD
 import CarDetails from './secao4/Cars';
 
 const people = [
@@ -14,13 +15,37 @@ let cars = [
   { model: "Ford Mustang", kilometers: 30000, year: 2019, brand: "Ford" },
   { model: "Chevrolet Camaro", kilometers: 40000, year: 2020, brand: "Chevrolet" },
 ];
+=======
+
+const pessoas = [
+  {
+    "nome": "joao",
+    "idade": 16,
+    "profissao": "estudante"
+  }, 
+  {
+    "nome": "pedro",
+    "idade": 18,
+    "profissao": "estudante"
+  },
+  {
+    "nome": "gomes",
+    "idade": 35,
+    "profissao": "cantor"
+  }
+]
+>>>>>>> ad7e273 (update)
 
 function App() {
   return (
     <>
+<<<<<<< HEAD
       <h1>Título do desafio do CSS</h1>
       <UserDetails pessoas={people} />
       <CarDetails cars={cars} />
+=======
+      <UserDetails props={pessoas}/>
+>>>>>>> ad7e273 (update)
     </>
   );
 }
